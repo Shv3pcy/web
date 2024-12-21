@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SHV3PCY BiO </title>
+</head>
+
+<style>
+
+@font-face {
+  font-family: JetBrainsMono-Regular; /* Гарнитура шрифта */
+  src: url(JetBrainsMono/JetBrainsMono-Regular.ttf); /* Путь к файлу со шрифтом */
+ }
+
+ a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  position: relative;
+}
+ 
+
+a {
+  background: linear-gradient(0deg, rgb(57, 36, 187), rgb(57, 36, 187)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+  text-decoration: none;
+}
+a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+  text-decoration: underline;
+}
+
+.container{position: relative;
+          display: inline-block;}
+.container::after{content: "<- click";
+                  position: absolute;
+                 top: 0;
+                left: 110%;
+                 opacity: 0;
+                transition: opacity 0.3s;}
+
+.container:hover::after{opacity: 1;}
+
+
+ body {
+  font-family: JetBrainsMono-Regular, monospace;
+  color: white;
+  background-color: rgb(44, 44, 44);
+
+ }
+
+ 
+
+  .container {display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;}
+
+  .box {-webkit-animation: animate 1s ease infinite;
+        animation: animate 1s ease infinite;}
+
+    @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+    
+    @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+    
+    @media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+
+  @keyframes animate {0% { transform: scale(1); }
+                     50% { transform: scale(1.2); }
+                     100% { transform: scale(1); }}
+
+                     @font-face {
+  font-family: JetBrainsMono-Regular; /* Гарнитура шрифта */
+  src: url(JetBrainsMono/JetBrainsMono-Regular.ttf); /* Путь к файлу со шрифтом */
+ }
+
+ a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  position: relative;
+}
+ 
+
+a {
+  background: linear-gradient(0deg, rgb(57, 36, 187), rgb(57, 36, 187)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+  text-decoration: none;
+}
+a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+  text-decoration: underline;
+}
+
+.container{position: relative;
+          display: inline-block;}
+
+.container::after{content: "<- click";
+                  position: absolute;
+                  top: 0;
+                  left: 110%;
+                  opacity: 0;
+                  transition: opacity 0.3s;}
+
+.container:hover::after{opacity: 1;}
+
+body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        background: linear-gradient(to bottom left,#580000, #526900, #004d0d, #110074);
+        background-size: 600% 100%;
+        animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {background-position: 50% 0%;
+  }
+  100% {background-position: 0% 50%;}
+}
+
+  c-e {
+  background: linear-gradient(0deg, rgb(57, 36, 187), rgb(57, 36, 187)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+  text-decoration: none;
+}
+  c-e:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+  text-decoration: underline;
+}
+
+  c-e {
+    position: relative;
+  }
+  c-e::after{content: "<- copy";
+                  position: absolute;
+                  top: 10;
+                  left: 110%;
+                  opacity: 0;
+                  transition: opacity 0.3s;}
+  c-e:hover::after{opacity: 10;}
+
+  p.dline {
+     line-height: 1;
+    }
+    P {
+     line-height: 0.5em;
+    }
+   </style>
+
+<body>
+   
+    <style>#avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+  
+      transition: transform 0.3s;
+    }
+
+    #avatar:hover {
+      transform: scale(1.5);
+    }
+
+    #avatar:active {
+      transform: scale(1);}
+
+
+</style>
+
+<script>
+  customElements.define('custom-element', class CustomElement extends HTMLElement {
+    constructor() {
+      super();
+    }
+  });
+</script>
+
+   
+    <ul>
+         <h2>BiO</h2>
+
+         <style>img {position: absolute;
+                     left: 40px;
+                     top: -85px;}</style>
+
+<style>
+  div {
+    border: 2px solid #161616;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(to bottom left,#000000, #444444);
+    position: absolute;
+  }
+</style>   
+
+    <div>
+        <p><a href="https://t.me/SHV3PCY_bio"><img id="avatar" src="https://ouch-cdn2.icons8.com/KDWSUwPNbeZaxOYggiW8VmQJqy7p2cIN_g0lq-Ywo34/rs:fit:456:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTg1/L2I5MDg2ZjUyLTRi/NWMtNDYyZC1iMTli/LTk5Y2Q0NGZiYjI4/Yi5wbmc.png" width="35" height="35"></a>
+        <p><a class="container" href="https://t.me/FeedBackShv3pcy_bot">FeedBack Bot</a></p>
+        <p>about me -> <a>SHVΞPCУ</a></p>
+        <p>├ Telegram ID -> <a>6681953250</a></p>
+        <p>├ name -> <a>Dima</a></p>
+        <p>├ birth day -> <a>03/09</a></p>
+        <p>├ age -> <a>0+</a></p>
+        <p>├ i'm male</p>
+        <p>├ <a class="container" href="https://yoomoney.ru/bill/pay/13UGL9JGSSV.240712">💳 YooMoney Donate</a></p>
+        <p>├ main lang -> <a>RU</a></p>
+        <p>├ lang -> <a>EN</a></p>
+        <p>├ Python dev</p>    
+        <p>└Telegram Wallet -></p> 
+        <p id="copyText"><c-e>UQBGSO-...AfRYzw</c-e></p>
+        </div>
+      </ul>
+      
+      
+  
+      <script>
+          document.getElementById("copyText").addEventListener("click", function() {
+              var textToCopy = "мой адрес для кошелька в тг: UQBGSOppqW-amId8_4_ipD-CFxkv-r1wg1WgqZZ0iJAfRYzw";
+              var input = document.createElement("input");
+      input.setAttribute("value", textToCopy);
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("copy");
+      document.body.removeChild(input);
+      alert("Текст был скопирован в буфер обмену -> " + textToCopy);
+    });
+      </script>
+
+</body>
+</html>
